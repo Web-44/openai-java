@@ -1,9 +1,3 @@
-apply plugin: 'maven-publish'
+apply plugin: 'maven'
 
-publishing {
-    publications {
-        mavenJava(MavenPublication) {
-            from components.java
-        }
-    }
-}
+group = 'com.github.Web-44'
